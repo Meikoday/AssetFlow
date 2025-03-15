@@ -1,0 +1,31 @@
+{
+  "name": "computer-asset-management-system",
+  "version": "1.0.0",
+  "description": "电脑资产管理系统 - 整合版",
+  "main": "src/server/server.js",
+  "scripts": {
+    "dev:server": "nodemon src/server/server.js",
+    "dev:web": "cd src/web && vite",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:web\"",
+    "build:web": "cd src/web && vite build",
+    "build": "node build.js",
+    "start": "node src/server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "body-parser": "^1.20.2",
+    "fs-extra": "^11.1.1",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5",
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.10",
+    "concurrently": "^8.2.2"
+  }
+} 

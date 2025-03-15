@@ -1,0 +1,81 @@
+/* 基础样式 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* 页面标题样式 */
+.page-title {
+  margin-bottom: 20px;
+  color: #409EFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 卡片样式 */
+.card {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ebeef5;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  padding: 15px;
+  border-bottom: 1px solid #ebeef5;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* 表格样式 */
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.detail-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.detail-table td:first-child {
+  width: 30%;
+  font-weight: bold;
+  color: #606266;
+}
+
+/* 菜单栏固定在左侧 */
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  background-color: #304156;
+  color: white;
+  overflow-y: auto;
+}
+
+.content-container {
+  margin-left: 200px;
+  padding: 20px;
+} 

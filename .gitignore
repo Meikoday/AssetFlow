@@ -1,0 +1,37 @@
+# 依赖目录
+node_modules/
+**/node_modules/
+
+# 构建产物
+public/
+dist/
+**/dist/
+
+# 数据目录 (包含用户数据)
+data/
+
+# 日志文件
+*.log
+logs/
+npm-debug.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 其他
+.cache/
+coverage/ 
